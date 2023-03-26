@@ -1,0 +1,21 @@
+{
+  "name": "auth-api-module",
+  "version": "1.0.0",
+  "description": "authentication api using typescript, postgresql, jasmine for testing, and jwt token.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start" : "npm run build && node dist/server.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  }
+}
