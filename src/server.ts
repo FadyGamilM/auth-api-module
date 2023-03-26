@@ -1,1 +1,3 @@
-console.log("hello world")
+import express, { Application } from "express"
+
+const app: Application = express()
