@@ -14,11 +14,14 @@
   "dependencies": {
     "@types/jasmine": "^4.3.1",
     "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
     "jasmin": "^0.0.2",
     "typescript": "^5.0.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.22",
     "ts-node": "^10.9.1"
   }
