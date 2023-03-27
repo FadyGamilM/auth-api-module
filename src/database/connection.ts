@@ -1,4 +1,3 @@
-import { envConfig } from "../config"
 import { pool } from "./index"
 export const connect_to_db = async () => {
     try {
